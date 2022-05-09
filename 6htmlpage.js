@@ -9,6 +9,7 @@ var page = `
 <input type = 'text'/><br>
 <button>Submit</button>
 `
+// ``  esc ke niche hai re iska button.
 
 http.createServer(function(req,res){
     res.writeHead(200,{'Content-Type':'application\html'})
